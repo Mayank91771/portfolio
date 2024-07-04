@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import musicplayer from "../../Assets/Projects/musicplayer.png";
+import iBlog from "../../Assets/Projects/iBlog.png";
+import ratecard from "../../Assets/Projects/Ratecard.png";
+import fakestore from "../../Assets/Projects/Fakestore.png";
+import invoice from "../../Assets/Projects/Invoice.png";
+import tictactoe from "../../Assets/Projects/Tic-Tac-Toe.png";
 
 function Projects() {
   return (
@@ -23,68 +23,66 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={fakestore}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Fake Store"
+              description="It is a e-commerce web application that provide users options to buy from various products available. The API utilized is a third party API and the application is developed using React where as the state management is handled using Redux. For users to make payment Stripe payment gateway has been integrated in this application."
+              ghLink="https://github.com/Mayank91771/ecommerce-stripe"
+              demoLink="https://stunning-peony-09802f.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={musicplayer}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Music Player"
+              description="A web based music player developed using HTML, CSS and JavaScript which has all the options of a music player present in the current market and the option to select songs from a pre-added library."
+              ghLink="https://github.com/Mayank91771/musicplayer/tree/main"
+              demoLink="https://mayank-personal-music-player.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tictactoe}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Tic-Tac-Toe"
+              description="It is the famous tic-tac-toe game which has been developed using HTML, CSS and JavaScript. The user can select the choice of player from the two options given and which ever player gets their sign three times in a row (horizontally, vertically and diagonally) wins."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://tic-tac-toe-my-game-app.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ratecard}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Rate card design"
+              description="A mini project which focuses on the designing of a rate card which can handle multiple rate card options inside itself."
+              ghLink="https://github.com/Mayank91771/Multi-Rate-Card"
+              demoLink="https://peaceful-mochi-03898f.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={invoice}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Invoice creater"
+              description="An Invoice creator project built using React. Add itemized items, configure quantity, prices, tax rates and discounts. Feature to download Invoice as PDFs to your device. It uses 'jspdf-react' to capture the data from the modal and covert it from canvas -> pdf."
+              ghLink="https://github.com/Mayank91771/Invoice"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iBlog}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="iBlog"
+              description="A user interface design for a blog site created using HTML and CSS."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://mayank-blog-app.netlify.app/"
             />
           </Col>
         </Row>
