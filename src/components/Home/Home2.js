@@ -20,7 +20,7 @@ function Home2() {
               <br />
               <br />I fluent in technologies like
               <i>
-                <b className="purple"> JavaScript, React, Node.js, C#.</b>
+                <b className="purple"> JavaScript, React, Node.js, C#/Java.</b>
               </i>
               <br />
               <br />
@@ -33,7 +33,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I apply my passion for developing products with{" "}
-              <b className="purple">C#</b> and
+              <b className="purple">C#/Java</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -44,7 +44,7 @@ function Home2() {
               <i>
                 <b className="purple"> Next.js.</b>
               </i>
-              &nbsp; Also, I am currently learning
+              &nbsp; Also, I am currently improving my skills in
               <i>
                 <b className="purple"> Spring boot</b>
               </i>

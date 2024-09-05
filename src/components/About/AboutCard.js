@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mayank Mishra </span>
             {/* from <span className="purple"> Bhubaneswar, India.</span> */}
             <br />
-            I have worked as a software developer for almost 2 years.
+            I have been working as a software developer for more than an year.
             <br />
             I have completed my post graduation from Conestoga College in Mobile
             Solutions Development.
