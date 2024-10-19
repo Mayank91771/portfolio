@@ -46,7 +46,7 @@ function Techstack() {
         <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJava />
+        <SiDotnet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
