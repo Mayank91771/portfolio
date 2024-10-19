@@ -8,26 +8,29 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mayank Mishra </span>
+            Hi!, I am <span className="purple">Mayank Mishra </span>
             {/* from <span className="purple"> Bhubaneswar, India.</span> */}
             <br />
-            I have been working as a software developer for more than an year.
+            A software developer.
             <br />
-            I have completed my post graduation from Conestoga College in Mobile
-            Solutions Development.
+            I am a post graduate in Computer Science from Conestoga College,
+            Canada. I have previously worked as a Software Developer Intern at
+            UInSports Inc., where I built user-friendly applications, and my
+            exxperience also extends to IT, where I have gained hands-on
+            experience in building and maintaining computers and servers.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Outside of work, I stay active by
           </p>
           <ul>
             <li className="about-activity">
               <ImPointRight /> Travelling.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Play various sports.
+              <ImPointRight /> workout
             </li>
             <li className="about-activity">
-              <ImPointRight /> Keeping myself updated with latest market trends.
+              <ImPointRight /> and be part of any activity.
             </li>
           </ul>
 
