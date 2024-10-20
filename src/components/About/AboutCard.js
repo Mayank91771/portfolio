@@ -16,7 +16,7 @@ function AboutCard() {
             I am a post graduate in Computer Science from Conestoga College,
             Canada. I have previously worked as a Software Developer Intern at
             UInSports Inc., where I built user-friendly applications, and my
-            exxperience also extends to IT, where I have gained hands-on
+            experience also extends to IT, where I have gained hands-on
             experience in building and maintaining computers and servers.
             <br />
             <br />
